@@ -1,0 +1,51 @@
+.product:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+.product-link {
+    color: #000 !important;
+    text-decoration: none
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-new {
+    height:100px;
+    width:100px;
+    border-color:#c2e254 #9bb838 #b86938 #c2e254;
+    border-style:solid;
+    border-width:1px;
+    background:#c2e254;
+    cursor:pointer;
+    width: 20%;
+    border-radius: 4px;
+    margin-left:10px;
+    margin-top:10px;
+    color: #000000;
+    font-size: 15px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.btn-new:hover {
+    border-color:#FFCC66 #FFFF99 #FFFF99 #FFCC66;
+    border-style:solid;
+    border-width:1px;
+    background:#FFFF99;
+}
+.btn-new:focus {
+    background:#ddd;
+    border-color:#ddd #333 #333 #ddd;
+    border-style:solid;
+    border-width:1px;
+}
+.btn-new:active {
+    background:#ff0000;
+    border-color:#ddd #333 #333 #ddd;
+    border-style:solid;
+    border-width:1px;
+}
